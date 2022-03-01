@@ -17,75 +17,55 @@
 
    **Note:** _The edge app name shall be unique and this rule is enforced by the portal._
 
-![tsa2](https://user-images.githubusercontent.com/100555586/156124839-07f6f394-38bf-4542-9c6f-459e8b55316f.png)
+![aed2](https://user-images.githubusercontent.com/100555586/156133146-2a6715ca-e78b-4bd3-853b-a9750427481f.png)
+
 
  
 3.	After clicking on "Commission New", the edge application is commissioned. In this example, we rely on the default configuration, so no configuration is required here.
 
-![tsa3](https://user-images.githubusercontent.com/100555586/156124874-f8b815e8-9b60-4f69-89e9-b4385f413880.png)
+![aed3](https://user-images.githubusercontent.com/100555586/156133170-6ccd0b48-9993-446f-abe5-cf17c3a8c853.png)
+
 
 
 
 4.	Proceed to "Operation" and click on "Deploy". This operation will copy the edge app image on the target edge core if not already there. It can take some time. Monitor the "State" indication until it transitions to "Created"
 
 
-![tsa4](https://user-images.githubusercontent.com/100555586/156124900-49f518d0-4ff2-4a5c-a32e-35de7880e9cc.png)
+![aed4](https://user-images.githubusercontent.com/100555586/156133195-9e73e72d-4642-4ec0-9c14-42875feaf618.png)
 
+![aed5](https://user-images.githubusercontent.com/100555586/156133234-e18a8b0b-5d56-45ad-96e5-b5531b56543a.png)
 
-![tsa5](https://user-images.githubusercontent.com/100555586/156124922-057e6979-c54f-40fc-847f-fd652137c54e.png)
 
 
 5.	Click on "Start" button to actually start the S_2-Bus edge app. The edge app state will transition to 'Started'.
 
-![tsa6](https://user-images.githubusercontent.com/100555586/156124955-60c1b4ad-8942-4d37-8528-442ad2566dfc.png)
+![aed6](https://user-images.githubusercontent.com/100555586/156133259-8e9a74d8-bdd4-4a8d-b49c-a88d0eb32d87.png)
+
 
  
 6.	Verify the application reported properly to the infra by checking its Status. 'Status.State' parameter that shall be 'Ready', per the following snapshot.
 
-![tsa7](https://user-images.githubusercontent.com/100555586/156125334-5c74d5ec-7887-4f6e-a024-4846c0e713de.png)
-
+![aed7](https://user-images.githubusercontent.com/100555586/156133274-c0169ab0-60d2-40df-8afa-4e2bde399fa5.png)
 
 
 **Notice:** _M3 edge applications have 2 states of importance: The container state that can be {commissioned, started, stopped, exited} and the application state that can be {not started, Initializing, Ready}. For an edge application to be operational, its container state has to be 'started' and its application state has to be 'Ready'._
 
  
-After the TSA tier container has started, the system integrator is expected to set the 'Input EndPoints' for both raw data archiving and acquisition control.
-•	Raw data archiving endpoints:
-These endpoints define the source of the data to archive in the data base.	After clicking on the 'edit' icon of the Input Endpoint configuration, the user is presented with the list of eligible endpoints. One or many endpoints can selected by holding the "Ctrl" key of the keyboard while selecting the endpoint from the list.
- 
-![tsa9](https://user-images.githubusercontent.com/100555586/156125221-f1587d8a-5baf-4173-8805-0660d6479205.jpg)
-
-
-•	Acquisiton control endpoints:
-These endpoints are the source of the data to file.	After clicking on the 'edit' icon of the Input Endpoint configuration, the user is presented with the list of eligible endpoints. One or many endpoints can selected by holding the "Ctrl" key of the keyboard while selecting the endpoint from the list.
-
-![tsa10](https://user-images.githubusercontent.com/100555586/156125253-ba867b62-50ad-4de7-aa28-3aa834804362.jpg)
-
-
-•	Clicking on "Apply Configuration" button will then commit the request and define the time series the TSA tier will process.
-
-
-2.4.6	Commission and start the AED tier
-
-
-
- 
 •	After the AED tier container has started, the system integrator is expected to input the (python) plugin file name : After clicking on the 'edit' icon of the "Plugin Package File" configuration, the user is presented with the list of eligible plugin processors.
+
+![aed9](https://user-images.githubusercontent.com/100555586/156133366-4e8b92f8-92c5-4313-90ed-1ecdc120a163.jpg)
 
 
 •	Clicking on "Apply Configuration" button will then commit the request and the plugin processor will be deployed on the base application.
 
 •	After the plugin has been deployed, the "Pipeline Deployment Configuration" config is populated and enables the "Input EndPoints" configuration to be set by the user: After clicking on the 'edit' icon of the Input Endpoint configuration, the user is presented with the list of eligible endpoints. One or many endpoints can selected by holding the "Ctrl" key of the keyboard while selecting the endpoint from the list.
  
-
- 
+![aed10](https://user-images.githubusercontent.com/100555586/156133393-1f0baeff-a01b-45e2-9a70-7d58bd2b9a5c.jpg)
 
 
 •	Clicking on "Apply Configuration" button will then commit the request and define the input stream(s) that the AED tier will process.
 
-Note : A given plugin can be further configured via the deployment of a "Plugin Configuration" file. The deployement of such a file does not require the user to re-map the endpoints, enabling a dynamic re- configuration of the AED tier, e.g. the update of a trained model.
- 
+**Note:** _A given plugin can be further configured via the deployment of a "Plugin Configuration" file. The deployement of such a file does not require the user to re-map the endpoints, enabling a dynamic re- configuration of the AED tier, e.g. the update of a trained model._
 
- 
-
+![aed11](https://user-images.githubusercontent.com/100555586/156133440-71c89f14-2759-4372-af6f-178b8212895d.jpg)
 
