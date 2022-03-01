@@ -1,10 +1,7 @@
-**COMMISSION AND START THE TSA TIER**
+**COMMISSION AND START THE TIME SERIES AGGREGATOR(TSA) TIER**
 --------------------------------
 
 ![tsa1](https://user-images.githubusercontent.com/100555586/156122906-b9f5b3f7-d54f-49ac-8966-d515e222f30f.png)
-
-
-
 
 1.	Proceed to the management section of Edge Apps, then click "Commission New":
  
