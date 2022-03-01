@@ -68,5 +68,3 @@ HOW TO SET UP
 8.	[Commission and start the AFE tier](https://github.com/alya-arshad-siemens/siesocom_/blob/main/S-Apps/Event%20Inference%20Pipeline%20(EIP)/Config%20n%20Deployment/How%20to%20set%20up%20AFE.MD)
 9.	[Commission and start the AED tier](https://github.com/alya-arshad-siemens/siesocom_/blob/main/S-Apps/Event%20Inference%20Pipeline%20(EIP)/Config%20n%20Deployment/How%20to%20set%20up%20AED.MD)
 
-APPLICABLE CONFIGURATIONS
--------------------------
