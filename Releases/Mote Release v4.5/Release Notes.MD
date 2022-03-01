@@ -64,10 +64,10 @@ HOW TO SET UP
 3.	[Onboard and attach an S-Mote](https://github.com/alya-arshad00/siesocom_/blob/624f511144194badbe0491a8cfb52d3efa7bd7e9/S-MOTE/Config%20n%20Deployment/HOW%20TO%20SET%20UP/ONBOARD%20AND%20ATTACH%20S-MOTE.MD)
 4.	[Commission and start the Message Bus](https://github.com/alya-arshad-siemens/siesocom_/blob/main/S-Apps/Broker/Config%20n%20Deployment/How%20to%20set%20up.MD)
 5.	[Commission and start the CEA tier](https://github.com/alya-arshad-siemens/siesocom_/blob/main/S-Apps/Controller%20&%20Events%20Archiver%20(CEA)/Config%20n%20Deployment/How%20to%20set%20up.MD)
-6.	Commission and start the TSA tier
-7.	Commission and start the RAF tier
-8.	Commission and start the AFE tier
-9.	Commission and start the AED tier
+6.	[Commission and start the TSA tier](https://github.com/alya-arshad-siemens/siesocom_/blob/main/S-Apps/Time%20Series%20Aggregator%20(TSA)/Config%20n%20Deployment/How%20to%20set%20up.MD)
+7.	[Commission and start the RAF tier](https://github.com/alya-arshad-siemens/siesocom_/blob/main/S-Apps/Raw%20Audio%20Filer%20(RAF)/Config%20n%20Deployment/How%20to%20set%20up.MD)
+8.	[Commission and start the AFE tier](https://github.com/alya-arshad-siemens/siesocom_/blob/main/S-Apps/Event%20Inference%20Pipeline%20(EIP)/Config%20n%20Deployment/How%20to%20set%20up%20AFE.MD)
+9.	[Commission and start the AED tier](https://github.com/alya-arshad-siemens/siesocom_/blob/main/S-Apps/Event%20Inference%20Pipeline%20(EIP)/Config%20n%20Deployment/How%20to%20set%20up%20AED.MD)
 
 APPLICABLE CONFIGURATIONS
 -------------------------
