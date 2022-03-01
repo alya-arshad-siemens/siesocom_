@@ -2,13 +2,15 @@
 ------------------------------------
 
 
-![mb1](https://user-images.githubusercontent.com/100555586/156117260-68a63ac5-e872-4377-a6a0-1ef987594849.png)
+![cea1](https://user-images.githubusercontent.com/100555586/156120433-991589ce-98f9-4300-896b-9f38412b6781.png)
+
 
 
 1.	Proceed to the management section of Edge Apps, then click "Commission New":
  
 
- ![mb2](https://user-images.githubusercontent.com/100555586/156117279-59925e9e-8aff-46da-9dde-b2bdd8ebc158.jpg)
+ ![cea2](https://user-images.githubusercontent.com/100555586/156120467-af176bca-16ba-42a2-8d4c-15c6f0447ad9.png)
+
 
 
 
@@ -19,26 +21,31 @@
 
    **Note:** _The edge app name shall be unique and this rule is enforced by the portal._
 
-![mb3](https://user-images.githubusercontent.com/100555586/156117329-90c85834-357e-46e6-ace4-8e3e32eb2f56.png)
+![cea3](https://user-images.githubusercontent.com/100555586/156120481-c146dde7-081d-4dfd-a135-8fab1a00a2aa.png)
+
 
 
  
 3.	After clicking on "Commission New", the edge application is commissioned. In this example, we rely on the default configuration, so no configuration is required here.
 
-![mb4](https://user-images.githubusercontent.com/100555586/156117363-be83617f-3faf-4856-830a-914a856d1302.jpg)
+![cea4](https://user-images.githubusercontent.com/100555586/156120508-93568f07-cdc0-4552-a5b3-028fec32804b.png)
+
 
 
 4.	Proceed to "Operation" and click on "Deploy". This operation will copy the edge app image on the target edge core if not already there. It can take some time. Monitor the "State" indication until it transitions to "Created"
 
 
-![mb5](https://user-images.githubusercontent.com/100555586/156117395-e2d855d9-5d45-4e3f-853c-13b1ed878dbb.png)
+![cea5](https://user-images.githubusercontent.com/100555586/156120543-b7428bb4-56c3-48b4-8e70-55976ca39357.png)
 
-![mb6](https://user-images.githubusercontent.com/100555586/156117429-dddc7af5-2b9a-4ba9-b29c-3618af0315f4.png)
+
+![cea6](https://user-images.githubusercontent.com/100555586/156120570-49ece137-f6d8-4bd7-af45-fec5ae6859e1.png)
+
 
 
 5.	Click on "Start" button to actually start the S_2-Bus edge app. The edge app state will transition to 'Started'.
 
-![mb7](https://user-images.githubusercontent.com/100555586/156117465-8478707d-f231-4257-89ea-a30430176d3a.png)
+![cea7](https://user-images.githubusercontent.com/100555586/156120583-5faa1ec0-d72c-4c15-a3fa-2d471af2c74b.png)
+
 
  
 6.	Verify the application reported properly to the infra by checking its Status. 'Status.State' parameter that shall be 'Ready', per the following snapshot.
