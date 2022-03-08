@@ -1,4 +1,4 @@
-SiESoCom MOTE SETUP & ONBOARDING GUIDE
+MOTE SETUP & ONBOARDING GUIDE
 ---------------------------------------
 
 > ***1. Context***
