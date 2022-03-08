@@ -17,17 +17,17 @@ EDGE CORE -- SETUP & ONBOARDING GUIDE
 
 
 
-2 Step 1: Installing S-Edge-Core distribution
+> 2- Step 1: Installing S-Edge-Core distribution
 
 
 
 
-2.1 Preparing a USB stick installer
+> 2.1 Preparing a USB stick installer
 
 
 
 
-2.1.1     Software Requirement
+> 2.1.1     Software Requirement
 
 
 •	The paths to latest images for S-Edge-Core distribution are available available [here](https://github.com/alya-arshad00/siesocom_/tree/main/Releases)
@@ -35,7 +35,7 @@ EDGE CORE -- SETUP & ONBOARDING GUIDE
 ●	_A USB Flashing utility : e.g Etcher is used to burn the image on the usb mass storage device for installation._
 
 
-2.1.2     Hardware Requirement
+**2.1.2     Hardware Requirement**
 
 ●	Siemens SIMATIC Microbox PC (e.g. 427E with AVX instruction set support)
 ●  Display (supporting DisplayPort - DP)
@@ -43,7 +43,7 @@ EDGE CORE -- SETUP & ONBOARDING GUIDE
 ●  USB Flash Disk (16 GB or more)
 
 
-2.1.3     Preparing the Installation Disk
+**2.1.3     Preparing the Installation Disk**
 
 Download and decompress the image from the latest release path. After download and unzip, you should see:
 
@@ -54,7 +54,7 @@ Using USB Flashing utility, burn this installer image on a USB flash disk, using
 
  
 
-Notice: it's recommended to re-format the USB flash disk prior to flashing it, in particular if you 'recycle' a previously flashed disk for Edge-Core (that  windows  PC  will  not  recognize  as  valid).  The  freeware  'SD  card formatter' does this job smoothly:
+**Notice:** _It's recommended to re-format the USB flash disk prior to flashing it, in particular if you 'recycle' a previously flashed disk for Edge-Core (that  windows  PC  will  not  recognize  as  valid).  The  freeware  'SD  card formatter' does this job smoothly._
 
 **2.1.4     Connecting Peripherals to SIMATIC Microbox PC**
 
