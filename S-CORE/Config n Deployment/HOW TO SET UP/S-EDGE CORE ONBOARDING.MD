@@ -1,9 +1,5 @@
-
-
-SIESOCOM EDGE CORE --- SETUP & ONBOARDING GUIDE
-------------------
-
-
+EDGE CORE -- SETUP & ONBOARDING GUIDE
+-------------------------------------
 
 1 Context
 ---------
