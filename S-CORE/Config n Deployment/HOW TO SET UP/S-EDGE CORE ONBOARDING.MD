@@ -1,8 +1,8 @@
 EDGE CORE -- SETUP & ONBOARDING GUIDE
 -------------------------------------
 
-1 Context
----------
+> 1 Context
+------------
 
 
 **On-boarding a new SiESoCom Edge-Core (S-Edge-Core) device typically consists of following 3 steps:**
