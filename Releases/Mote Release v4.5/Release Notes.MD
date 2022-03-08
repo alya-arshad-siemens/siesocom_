@@ -50,7 +50,7 @@ Below list of issues were shipped with current release:
 4.	Add publisherInfo filter for avoiding unrelated signals from reaching the mote
 5.	Fix detach race condition with prevent the mote from restarting
 
-[This list of bugs were reported and fixed during the testing of release](https://jira.alm.mentorg.com/browse/CSP-4624?filter=26469)
+[This list of bugs was reported and fixed during the testing of release](https://jira.alm.mentorg.com/browse/CSP-4103?filter=22120)
 
 
 ISSUES/LIMITATIONS/CHALLENGES
