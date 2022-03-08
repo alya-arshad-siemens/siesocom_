@@ -59,8 +59,8 @@ ISSUES/LIMITATIONS/CHALLENGES
 HOW TO SET UP
 -------------
 1.	[Create a Setup](https://github.com/alya-arshad00/siesocom_/blob/018e511a9b5adeb9454b3d8997baa9d84539ee24/S-CORE/Config%20n%20Deployment/HOW%20TO%20SET%20UP/Create%20A%20Setup.MD)
-2.	[Onboard and attach an S-Edge Core](https://github.com/alya-arshad00/siesocom_/blob/018e511a9b5adeb9454b3d8997baa9d84539ee24/S-CORE/Config%20n%20Deployment/HOW%20TO%20SET%20UP/S-EDGE%20CORE%20ONBOARDING.MD)
-3.	[Onboard and attach an S-Mote](https://github.com/alya-arshad00/siesocom_/blob/624f511144194badbe0491a8cfb52d3efa7bd7e9/S-MOTE/Config%20n%20Deployment/HOW%20TO%20SET%20UP/ONBOARD%20AND%20ATTACH%20S-MOTE.MD)
+2.	[Onboard and attach an S-Edge Core](https://github.com/alya-arshad-siemens/siesocom_/blob/95e574008e89f83d8c4323e7ae16bbd51e6e6eba/S-CORE/Config%20n%20Deployment/HOW%20TO%20SET%20UP/S-EDGE%20CORE%20ONBOARDING.MD)
+3.	[Onboard and attach an S-Mote](https://github.com/alya-arshad-siemens/siesocom_/blob/95e574008e89f83d8c4323e7ae16bbd51e6e6eba/S-MOTE/Config%20n%20Deployment/HOW%20TO%20SET%20UP/ONBOARD%20AND%20ATTACH%20S-MOTE.MD)
 4.	[Commission and start the Message Bus](https://github.com/alya-arshad-siemens/siesocom_/blob/main/S-Apps/Broker/Config%20n%20Deployment/How%20to%20set%20up.MD)
 5.	[Commission and start the CEA tier](https://github.com/alya-arshad-siemens/siesocom_/blob/main/S-Apps/Controller%20&%20Events%20Archiver%20(CEA)/Config%20n%20Deployment/How%20to%20set%20up.MD)
 6.	[Commission and start the TSA tier](https://github.com/alya-arshad-siemens/siesocom_/blob/main/S-Apps/Time%20Series%20Aggregator%20(TSA)/Config%20n%20Deployment/How%20to%20set%20up.MD)
